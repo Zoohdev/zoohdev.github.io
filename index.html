@@ -14,90 +14,7 @@
     <!-- https://templatemo.com/tm-458-lavish -->
 
     <style>
-        body {
-            background: linear-gradient(to bottom right, #000000, #ff00ff);
-            color: white;
-            font-family: 'Arial', sans-serif;
-        }
-
-        #fullpage {
-            text-align: center;
-        }
-
-        #home {
-            padding: 100px 0;
-        }
-
-        #home h1,
-        #home h2,
-        #home h3,
-        #home h4,
-        #home h5,
-        #home p {
-            color: white;
-        }
-
-        #work,
-        #about,
-        #portfolio,
-        #contact {
-            padding: 80px 0;
-        }
-
-        #work h2,
-        #about h2,
-        #portfolio h2,
-        #contact p {
-            color: white;
-        }
-
-        .section h2 {
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            background-color: #ff00ff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        .btn:hover {
-            background-color: #ff0099;
-        }
-
-        .portfolio-thumb {
-            position: relative;
-            overflow: hidden;
-            margin-bottom: 30px;
-        }
-
-        .portfolio-thumb img {
-            width: 100%;
-            height: auto;
-        }
-
-        .portfolio-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.7);
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .portfolio-thumb:hover .portfolio-overlay {
-            opacity: 1;
-        }
+        /* Your existing styles here */
 
         .portfolio-overlay h4,
         .portfolio-overlay h5 {
@@ -105,33 +22,21 @@
             color: white;
         }
 
-        .contact-title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        address p {
-            color: white;
-            margin-bottom: 10px;
-        }
-
-        form {
+        .portfolio-buttons {
             margin-top: 20px;
         }
 
-        form input,
-        form textarea {
-            margin-bottom: 10px;
-        }
-
-        form input[type="submit"] {
+        .portfolio-buttons a {
+            display: inline-block;
+            margin-right: 10px;
             background-color: #ff00ff;
             color: white;
-            cursor: pointer;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 5px;
         }
 
-        form input[type="submit"]:hover {
+        .portfolio-buttons a:hover {
             background-color: #ff0099;
         }
     </style>
@@ -140,8 +45,6 @@
 <body>
 
 <div id="fullpage">
-
-    <!-- start home -->
     <div id="home" class="section">
         <div class="container">
             <div class="row">
@@ -149,7 +52,7 @@
                 <div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
                     <h3>Sesethu Ngqwaru</h3>
                     <h1>DEVELOPER</h1>
-                    <h2 class="rotate">FRONTEND &AMP; BACKEND, SOFTWARE ENGINEER, MENTOR &AMP; TUTOR </h2>
+                    <h2 class="rotate">FRONTEND &AMP; BACKEND, SOFTWARE ENGINEER,MENTOR &AMP; TUTOR </h2>
                     <p>Proficient in Languages, Python, Java, JavaScript, C, CSS & <HTML></HTML></p>
                     <a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">View More</a>
                 </div>
@@ -166,8 +69,8 @@
                 <div class="col-md-12 wow bounce">
                     <h2>WHAT I DO</h2>
                 </div>
-            </div>
-
+            </div>  
+            
             <div class="row">
                 <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="media">
@@ -176,11 +79,11 @@
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Full Stack Development</h3>
-                            <p>My experience with a To-Do Application using the MERN stack (MongoDB, Express.js, React, Node.js) suggests proficiency in both front-end and back-end development.</p>
+                            <p>My experience with a To-Do Application using the MERN stack (MongoDB, Express.js, React, Node.js) suggests proficiency in both front-end and back-end development..</p>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="media">
                         <div class="media-object media-left">
@@ -192,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="media">
                         <div class="media-object media-left">
@@ -200,25 +103,25 @@
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">Java Development &AMP; Shell Scripting</h3>
-                            <p>My experience with shell scripting in C indicates a strong understanding of system-level programming and automation, and my Java projects indicate versatility in your programming skills.</p>
+                            <p>My experience with shell scripting in C indicates a strong understanding of system-level programming and automation and 
+                                my Java projects indicates versatility in your programming skills.
+                            </p>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
-    <!-- end work -->
 
-    <!-- start about -->
     <div id="about" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
                     <h2>ABOUT ME</h2>
                     <h4>DEVELOPER &AMP; ENGINEER</h4>
-<<<<<<< HEAD
-                    <p>A Self-taught and Bootcamp Graduate Developer with a strong foundation in both front-end and back-end technologies. I also have an ability to work with different programming languages and possess experience with scripting and automation.</p>
-
+                    <p>A Self taught and Bootcamp Graduate Developer with a strong foundation in both front-end and back-end technologies. I also have an ability to work with different programming languages and possess experience with scripting and automation.</p>
+                    
                     <p>
                         I have a teaching background in Mathematics, Physics as well as coding languages, I love mentoring as well as collaboration.
                     </p>
@@ -236,7 +139,7 @@
                     <p>
                         Vanilla JavaScript:
 
-                        Implemented a Weather Application and a TEXT-SPEECH converter using HTML, CSS, and JavaScript without specific frameworks. This demonstrates that I have a strong understanding of core JavaScript and DOM manipulation.
+Implemented a Weather Application and a TEXT-SPEECH converter using HTML, CSS, and JavaScript without specific frameworks. This demonstrates that I have a strong understanding of core JavaScript and DOM manipulation.
                     </p>
 
                     <p>
@@ -245,6 +148,8 @@
                         Created a Water Reminder Notification with a simple GUI, showcasing proficiency in using Python for desktop applications. I used a GUI library for this project called Plyer.
 
                     </p>
+                    </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -266,6 +171,9 @@
                                 <h5>Landing Page</h5>
                             </div>
                         </a>
+                        <div class="portfolio-buttons">
+                            <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
@@ -276,6 +184,9 @@
                                 <h5>To Do Application</h5>
                             </div>
                         </a>
+                        <div class="portfolio-buttons">
+                            <a href="https://github.com/Zoohdev/ToDoApplication" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
@@ -286,6 +197,9 @@
                                 <h5>Notification Pop Up</h5>
                             </div>
                         </a>
+                        <div class="portfolio-buttons">
+                            <a href="https://github.com/Zoohdev/Water-Reminder-Python-.git" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
@@ -296,6 +210,9 @@
                                 <h5>Educational Platform</h5>
                             </div>
                         </a>
+                        <div class="portfolio-buttons">
+                            <a href="https://github.com/Zoohdev/MasterClass-Application.git" target="_blank" rel="noopener noreferrer">View Code</a>
+                        </div>
                     </div>
                 </div>
 
@@ -327,17 +244,14 @@
             </div>
         </div>
     </div>
+    
     <!-- end contact -->
 
     <!-- start footer -->
-
+    <!-- ... (Your existing code for the footer section) -->
     <!-- end footer -->
 
 </div>
 
 </body>
 </html>
-
-=======
-                    <p>A Self-taught and Bootcamp Graduate Developer
->>>>>>> 985c6285d765b66f3570a468a2a04e35dd40c3e0

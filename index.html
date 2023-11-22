@@ -12,9 +12,91 @@
 
     <!-- Lavish HTML CSS Template -->
     <!-- https://templatemo.com/tm-458-lavish -->
+<style>
+    body {
+            background: linear-gradient(to bottom right, #000000, #ff00ff);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
 
-    <style>
-        /* Your existing styles here */
+        #fullpage {
+            text-align: center;
+        }
+
+        #home {
+            padding: 100px 0;
+        }
+
+        #home h1,
+        #home h2,
+        #home h3,
+        #home h4,
+        #home h5,
+        #home p {
+            color: white;
+        }
+
+        #work,
+        #about,
+        #portfolio,
+        #contact {
+            padding: 80px 0;
+        }
+
+        #work h2,
+        #about h2,
+        #portfolio h2,
+        #contact p {
+            color: white;
+        }
+
+        .section h2 {
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #ff00ff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #ff0099;
+        }
+
+        .portfolio-thumb {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .portfolio-thumb img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .portfolio-thumb:hover .portfolio-overlay {
+            opacity: 1;
+        }
 
         .portfolio-overlay h4,
         .portfolio-overlay h5 {
@@ -22,23 +104,59 @@
             color: white;
         }
 
-        .portfolio-buttons {
+        .contact-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        address p {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        form {
             margin-top: 20px;
         }
 
-        .portfolio-buttons a {
-            display: inline-block;
-            margin-right: 10px;
-            background-color: #ff00ff;
-            color: white;
-            padding: 5px 10px;
-            text-decoration: none;
-            border-radius: 5px;
+        form input,
+        form textarea {
+            margin-bottom: 10px;
         }
 
-        .portfolio-buttons a:hover {
+        form input[type="submit"] {
+            background-color: #ff00ff;
+            color: white;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
             background-color: #ff0099;
         }
+
+	.portfolio-overlay h4,
+	.portfolio-overlay h5 {
+		margin: 0;
+		color: white;
+	}
+
+	.portfolio-buttons {
+		margin-top: 20px;
+	}
+
+	.portfolio-buttons a {
+		display: inline-block;
+		margin-right: 10px;
+		background-color: #ff00ff;
+		color: white;
+		padding: 5px 10px;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+
+	.portfolio-buttons a:hover {
+		background-color: #ff0099;
+	}
     </style>
 
 </head>
@@ -172,6 +290,9 @@
                         </div>
                     </a>
                     <div class="portfolio-buttons">
+			   <h4>Web Development</h4>
+                            <h5>Landing Page</h5>
+
                         <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
@@ -179,70 +300,68 @@
 
             <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
                 <div class="portfolio-thumb">
-                    <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Zoohdev/Water-Reminder-Python-.git" target="_blank" rel="noopener noreferrer">
                         <div class="portfolio-overlay">
-                            <h4>Web Development</h4>
-                            <h5>Landing Page</h5>
+                            <h4>Python GUI</h4>
+                            <h5>Desktop Notification</h5>
                         </div>
                     </a>
                     <div class="portfolio-buttons">
-                        <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
+			    <h4>Python GUI</h4>
+                            <h5>Desktop Notification</h5>
+
+                        <a href="https://github.com/Zoohdev/Water-Reminder-Python-.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
                 <div class="portfolio-thumb">
-                    <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Zoohdev/ToDoApplication.git" target="_blank" rel="noopener noreferrer">
                         <div class="portfolio-overlay">
-                            <h4>Web Development</h4>
-                            <h5>Landing Page</h5>
+                            <h4>MERN Stack Application</h4>
+                            <h5>To Do Application</h5>
                         </div>
                     </a>
                     <div class="portfolio-buttons">
-                        <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
+			      <h4>MERN Stack Application</h4>
+                            <h5>To Do Application</h5>
+
+                        <a href="https://github.com/Zoohdev/ToDoApplication.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
                 <div class="portfolio-thumb">
-                    <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Zoohdev/MasterClass-Application.git" target="_blank" rel="noopener noreferrer">
                         <div class="portfolio-overlay">
                             <h4>Web Development</h4>
-                            <h5>Landing Page</h5>
+                            <h5>Educational Platform</h5>
                         </div>
                     </a>
                     <div class="portfolio-buttons">
-                        <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
+			    <h4>Web Development</h4>
+                            <h5>Educational Platform</h5>
+
+                        <a href="https://github.com/Zoohdev/MasterClass-Application.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
                 <div class="portfolio-thumb">
-                    <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Zoohdev/ChatBot_chatterbot.git" target="_blank" rel="noopener noreferrer">
                         <div class="portfolio-overlay">
-                            <h4>Web Development</h4>
-                            <h5>Landing Page</h5>
+                            <h4>Natural Processing</h4>
+                            <h5>Chatterbot-Chatbot</h5>
                         </div>
                     </a>
                     <div class="portfolio-buttons">
-                        <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
-                    </div>
-                </div>
-            </div>
+			     <h4>Natural Processing</h4>
+                            <h5>Chatterbot-Chatbot</h5>
 
-            <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">
-                        <div class="portfolio-overlay">
-                            <h4>Web Development</h4>
-                            <h5>Landing Page</h5>
-                        </div>
-                    </a>
-                    <div class="portfolio-buttons">
-                        <a href="https://github.com/Zoohdev/paysignal.github.io" target="_blank" rel="noopener noreferrer">View Code</a>
+                        <a href="https://github.com/Zoohdev/ChatBot_chatterbot.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,50 @@
+.navbar {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #ffeb3b; /* Change color on hover */
+    transform: scale(1.1); /* Grow effect on hover */
+  }
+  
+  /* Add a sliding animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar ul {
+    animation: slideIn 0.5s ease forwards;
+  }
+  
+  

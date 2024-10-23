@@ -1,0 +1,27 @@
+.portfolio-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #bd8724;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  

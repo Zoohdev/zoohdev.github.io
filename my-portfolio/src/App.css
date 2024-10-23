@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light background */
+  color: #333; /* Default text color */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+h1, h2, h3 {
+  color: #accaca; /* Accent color for headings */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark background for navbar */
+  padding: 15px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4A90E2; /* Change color on hover */
+}
+
+/* Project Cards */
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Animation */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Elevate card */
+}
+
+/* About Me Section */
+.about-me {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.contact-info {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Match footer with navbar */
+  color: white;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #4A90E2; /* Accent color for links */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Video styling */
+.project-video {
+  width: 100%; /* Ensure video takes full width */
+  border-radius: 8px; /* Rounded corners */
+}

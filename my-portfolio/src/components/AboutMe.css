@@ -1,0 +1,49 @@
+.about-me {
+    background: linear-gradient(to right, #cdbae2, #af8e74); /* Colorful gradient background */
+    color: rgb(24, 22, 22); /* Text color */
+    padding: 50px 20px; /* Padding */
+    text-align: center; /* Center alignment */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  .about-title {
+    font-size: 2.5rem; /* Title size */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Space below title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect on text */
+  }
+  
+  .about-description {
+    font-size: 1.2rem; /* Description size */
+    margin-bottom: 40px; /* Space below description */
+  }
+  
+  .fun-facts,
+  .tech-skills {
+    margin: 20px 0; /* Space around fun facts and tech skills */
+    padding: 20px; /* Inner padding */
+    border: 1px solid white; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  }
+  
+  .fun-facts h3,
+  .tech-skills h3 {
+    font-size: 1.8rem; /* Heading size */
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  ul li {
+    font-size: 1.1rem; /* List item size */
+    margin: 5px 0; /* Space between list items */
+    animation: fadeIn 0.5s ease; /* Animation for list items */
+  }
+  
+  
+  

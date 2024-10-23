@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Zoohdev/zoohdev.github.io.git/static/css/main.04edf303.css",
-    "main.js": "/Zoohdev/zoohdev.github.io.git/static/js/main.80b7802e.js",
-    "static/js/453.acca0757.chunk.js": "/Zoohdev/zoohdev.github.io.git/static/js/453.acca0757.chunk.js",
-    "index.html": "/Zoohdev/zoohdev.github.io.git/index.html",
-    "main.04edf303.css.map": "/Zoohdev/zoohdev.github.io.git/static/css/main.04edf303.css.map",
-    "main.80b7802e.js.map": "/Zoohdev/zoohdev.github.io.git/static/js/main.80b7802e.js.map",
-    "453.acca0757.chunk.js.map": "/Zoohdev/zoohdev.github.io.git/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/Zoohdev/zoohdev.github.io/static/css/main.04edf303.css",
+    "main.js": "/Zoohdev/zoohdev.github.io/static/js/main.b36ff46e.js",
+    "static/js/453.acca0757.chunk.js": "/Zoohdev/zoohdev.github.io/static/js/453.acca0757.chunk.js",
+    "index.html": "/Zoohdev/zoohdev.github.io/index.html",
+    "main.04edf303.css.map": "/Zoohdev/zoohdev.github.io/static/css/main.04edf303.css.map",
+    "main.b36ff46e.js.map": "/Zoohdev/zoohdev.github.io/static/js/main.b36ff46e.js.map",
+    "453.acca0757.chunk.js.map": "/Zoohdev/zoohdev.github.io/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04edf303.css",
-    "static/js/main.80b7802e.js"
+    "static/js/main.b36ff46e.js"
   ]
 }

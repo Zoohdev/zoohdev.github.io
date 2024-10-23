@@ -21,7 +21,7 @@ const projects = [
     
   },
   {
-    title: "CTO Project: Mobile Aplication",
+    title: "CTO Project: Mobile Application",
     description: "Full Stack React Native & Django",
     githubLink: "https://github.com/Zoohdev/PaySignalApplication.git",
     
